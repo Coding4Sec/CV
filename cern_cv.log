@@ -1,27 +1,17 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.5.9)  29 AUG 2013 11:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.6.20)  10 JUN 2015 22:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **cern_cv.tex
 (./cern_cv.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2011-07-01, ngerman-x-2011-07-01, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
-ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
-rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
-kurmanji, lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nyn
-orsk, polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbia
-nc, slovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorb
-ian, welsh, loaded.
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (./res.cls
 Document Style `res' <26 Sep 89>.
 Document Class: res 2000/05/19 v1.4b Resume class
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/article.cls
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/size10.clo
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -48,17 +38,17 @@ No auxiliary output files.
 \resumewidth=\dimen104
 \@columnwidth=\dimen105
 \c@numberofcolumns=\count87
-) (/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/helvet.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 ))
-(/usr/local/texlive/2011/texmf-dist/tex/latex/ifsym/ifsym.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ifsym/ifsym.sty
 Package: ifsym 2000/04/18 I.Kloeckl
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/calc.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count88
 \calc@Bcount=\count89
@@ -66,20 +56,20 @@ Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bdimen=\dimen107
 \calc@Askip=\skip44
 \calc@Bskip=\skip45
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count90
 \calc@Cskip=\skip46
 )
 \c@ifsymcnt=\count91
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/wasysym/wasysym.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/wasysym/wasysym.sty
 Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
 \symwasy=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
 )
-(/usr/local/texlive/2011/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip47
 \f@ncyO@elh=\skip48
 \f@ncyO@erh=\skip49
@@ -108,7 +98,7 @@ LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Try loading font information for U+wasy on input line 56.
-(/usr/local/texlive/2011/texmf-dist/tex/latex/wasysym/uwasy.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -117,39 +107,40 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 56.
 LaTeX Font Info:    Try loading font information for U+ifsym on input line 57.
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/ifsym/uifsym.fd)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ifsym/uifsym.fd)
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 113.
 
 
-(/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 113.
  [1
 
-{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
- [4] ) 
+{/Users/matt/Library/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+] [2] [3]
+[4] ) 
 Here is how much of TeX's memory you used:
- 935 strings out of 493610
- 11006 string characters out of 3142405
- 60910 words of memory out of 3000000
- 4286 multiletter control sequences out of 15000+200000
- 7431 words of font info for 28 fonts, out of 3000000 for 9000
- 831 hyphenation exceptions out of 8191
- 29i,10n,43p,594b,312s stack positions out of 5000i,500n,10000p,200000b,50000s
- </Users/matt/Library/texlive/2011/texmf-var/fonts/pk/ljfour/public/ifsym
-/ifsym10.600pk></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmcsc10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr7.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl
-10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
-.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
-pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/wasy/wasy10.pfb>
-Output written on cern_cv.pdf (4 pages, 140944 bytes).
+ 935 strings out of 493117
+ 11007 string characters out of 6135433
+ 64714 words of memory out of 5000000
+ 4440 multiletter control sequences out of 15000+600000
+ 7431 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 29i,10n,43p,594b,312s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/matt/Library/texlive/2014/texmf-var/fonts/pk/ljfour/public/ifsym/
+ifsym10.600pk></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmcsc10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl1
+0.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.p
+fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/wasy/wasy10.pfb>
+Output written on cern_cv.pdf (4 pages, 140843 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream
