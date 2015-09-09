@@ -1,0 +1,112 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage{geometry}
+\geometry{a4paper, left=25mm, right=25mm, top=30mm, bottom=30mm}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[LO]{Precision measurements of CKM matrix elements - Matthew Kenzie}
+\fancyfoot{}
+\fancyfoot[RO]{\thepage}
+\fancyfoot[LO]{Matthew Kenzie}
+
+\usepackage{graphicx}
+
+% For LHCb symbols def
+\usepackage{ifthen}
+\newboolean{uprightparticles}
+\setboolean{uprightparticles}{false} %Set to false to get italic particle symbols
+\newboolean{pdflatex}
+%\setboolean{pdflatex}{false} % use this if using eps figures
+\setboolean{pdflatex}{true} % use this if using non-eps figures
+\input{lhcb-symbols-def}
+
+\begin{document}
+
+\section*{Overview}
+
+The standard model (SM) of particle physics has proved an incredibly successful theory of the interaction of sub-atomic matter.
+The predictions, and subsequent discoveries, of the theory's features over recent decades, culminating in the discovery of the Higgs boson in
+2012, in which I played a central role as part of the CMS collaboration, are testament to its success. However there are many unresolved problems
+in particle physics that the SM cannot explain and the one in which I have a particular interest is the matter-antimatter asymmetry of the universe.
+In the hot early universe matter and antimatter should have been created in equal amounts and once the universe cooled these would have
+re-annihilted to leave behind an abundance of electromagnetic radiation (or photons). These photons we see today as the cosmic microwave background (CMB) however there
+is clearly an imbalance as we also see large amounts of matter, which make up the stars, galaxies and ourselves, whilst no antimatter is left at all. We can undestand some
+part of this as being due to charge-parity (i.e. matter-antimatter) symmetry being broken. In the initial stage of matter-antimatter creation charge
+partity violation (CPV) results in a small excess of matter, which goes on to make up the observable universe of today, after the majority annihlates with
+the anti-matter to leave behind the CMB. To some extent this is explained in the SM with CP violating phases arising from the Cabbibo-Kobayashi-Masuwaka (CKM)
+matrix which describes how matter and anti-matter interact. One considerable problem remains which is that the amount of CPV observed in the SM (one part in $10^{10}$) is
+nowhere near enough to account for the observed photon-baryon (energy-matter) ratio in the universe (one part in $10^{20}$).
+
+Cleary the SM is not the full picture. There must be new physics (NP) processes which go some way to explaining this discrepancy. Furthermore, we know that production
+of NP particles must be small at the relatively low energies probed by current particle accelerators otherwise we would have already seen them. The key point is that
+NP must interact with the SM to give rise to the matter-antimatter asymmetry and we can probe this interference by precisely measuring CP violation in the CKM matrix
+of the SM.
+
+%There must be new physics (NP) out there and it is likely that this NP also violates CP. By studying CPV in the SM via precise measurements
+%of the CKM matrix we can observe the interference between the SM amplitudes and NP amplitudes. 	
+
+\section*{CKM matrix}
+
+One of the fundamental constituents of matter are quarks which make up the protons and neutrons in the nuclei of atoms. Quarks are not asymptotically free, in other words they are only
+observed in composite states consisting of quark pairs and triplets. In the SM there are six \textit{flavours} of quarks giving a vast array of different bound states. Furthermore, quarks can change flavour, via the electroweak (EW) interaction, where 
+the probability of such a transition is described by
+the CKM matrix. This matrix is of huge importance because it encodes the decay probability for the multitudes of composite quark states and by studying these decays it is possible to determine the elements of the matrix.
+
+The unitarity of the CKM matrix, i.e. the requirement that all possible quark transition probabilities must sum to one, provides several constrains which can be experimentally tested. 
+These constraints can be represented by a triangle with five free parameters: one side is defined to be of length 1, leaving the length of the other two sides, $a$ and $b$ and three angles, $\alpha$, $\beta$ and $\gamma$. The magnitude of $a$ and $b$
+determines the amount of CPV and the requirement of unitarity in the SM dictates that the angles should sum to 180$\degrees$.
+If the experimental observation is not that of a $180\degrees$ triangle then we are observing CP violation 
+from the inference between SM amplitudes and NP amplitudes. Thus by over constraining this picture we can observe physics beyond the SM. 
+This picture is now fairly well verified but two of the poorest known contributions are direct determination of the angle $\gamma$ and the magnitude of $a$ which is dominated by the uncertainty on the measurement of the $b\to u$ quark transition
+probability, $\Vub$.
+
+%\begin{figure}
+%    \centering
+%    \includegraphics[width=0.8\textwidth]{figs/ckm_fit_2015_zoom.pdf}
+%    \caption{The experimentally constrained picture of the $B_{d}$ unitarity triangle provided by the CKM fitter group}
+%    \label{fig:ckm_fit}
+%\end{figure}
+
+\section*{LHCb Experiment}
+
+The Large Hadron Collider (LHC) is a 27~km circumference circular proton-proton particle accelerator situated 100m beneath Geneva. Beams of protons are circulated at 99.9997\% the speed of light 
+and brought into collisions, 40 million times per second, at 4 interactions points around the ring. Situated at these interaction points are large detectors capable of reconstructing the multitude of particles created in the very energetic collision point which simulates the conditions of the early universe. The Large Hadron Collider beauty (LHCb) experiment is one of these principal detectors and is an ideal environment to study the CKM matrix. Bound states of beauty quarks, $B$ mesons and baryons,
+are produced in prodigious amounts at LHCb and the experimental hardware is designed specifically to detect them. $B$ mesons are a fantastic laboratory to study CPV in the CKM matrix because they are heavy states and subsequently have an abundance of different decay modes that can be studied (there are over 500 decay modes for the $\Bd$ meson alone). Furthermore via the quark mixing matrix these mesons can oscillate to their antimatter counterparts before decaying. Interference between the direct decay and the decay via matter-antimatter oscillation allows measurement of CPV in these systems and importantly constrain the unitarity triangle discussed above. 
+
+The first run of the LHC finished at the end of 2012 and much of this data is still being analysed. The second run of the LHC has just started, with much higher energy collisions and more efficient data  collection at LHCb, and will continue for the next three years. This fellowship offers the perfect time scale to study this data and take a real stride forward in clarification of the CKM picture. I have worked as part of the LHCb collaboration, the world leader in these kinds of measurements, since my PhD. The majority of my work has involved more precise measurement of the angle $\gamma$ but I have also provided interpretation of results relating to $\Vub$. I plan to continue working with data from the LHC over the duration of the fellowship and I detail specific plans in the following sections.
+
+\section*{Measurements of $\gamma$}
+
+The angle $\gamma$ is one of the least well known constraints of the CKM matrix. It can be accessed through interference of favoured $\Bp\to\Dzb\Kp$ and suppressed $\Bp\to\Dz\Kp$ decays where the $\Dz$ and $\Dzb$ decay to the same final state. LHCb is expected to dominate direct measurements of the angle $\gamma$ over the next four years, where analysis of the data from Run 2 of the LHC is expected to reduce the uncertainty on $\gamma$ to about $3\degrees$ (the current world average is about $8\degrees$) which is comparable to the current precision from indirect measurements assuming the SM. LHCb performs several analyses of $\Bp\to D\Kp$ and $\Bp\to D\pip$ decays where the $D$ decays to 2-body, 3-body and 4-body final states (GLW/ADS analyses) and where the $D$ decays to $\KS\pi\pi$, $\KS KK$ (GGSZ) and $\KS K\pi$ (GLS) final states. There are also further decays which have sensitivity, including the recent analysis of $\Bp\to D\Kp\pip\pim$ for which I provided the interpretation on $\gamma$. This is one of the flagship measurements of the experiment and one in which my personal contribution is significant. I am the sole individual responsible for providing the LHCb $\gamma$ combination. This involves maintaining and developing the software framework, producing the figures used in publications and conference talks and also writing the publications which interpret the results. As a product of this I have been asked by the Heavy Flavour Averaging Group (HFAG), one of the world authorities on precision measurements of flavour properties in the SM, to produce a similar interpretation for the world average of $\gamma$. I plan to continue and expand upon this work during the fellowship. Cambridge has a history of expertise in such measurements but currently has no-one actively working in this field. It is one of the most important measurements of the LHCb experiment, as no others have comparable sensitivity to $\gamma$, and has considerable interest in the particle physics community especially given the huge improvement in sensitivity expected over the next few years. The prospect for very precise determination of this angle in the near future with new data from the LHC is very exciting and will help to verify where and how new physics contributions enter the quark mixing sector.
+
+\section*{Precision measurements of $V_{ub}$}
+
+The least well known of the individual CKM elements is $V_{ub}$, the amplitude of $b\to u$ quark transitions. Furthermore, there is a considerable puzzle shrouding the CKM picture in a long standing discrepancy, currently larger than three standard deviations, between inclusive and exclusive measurements of 
+$V_{ub}$. 
+Exclusive measurements are those which chose a particular decay mode, for example $B\to\pi\ell\nu$, which proceed via a $b\to u$ quark transition to extract $\Vub$. These require experimental
+extraction of the differential decay rate for such a decay along with theoretical input of a form factor. Inclusive measurements use the sum of all possible decays of the type $b \to u \ell\nu$ to extract $\Vub$. These are 
+experimentally challenging as the background from $b \to c\ell\nu$ decays is considerable and these must therefore be performed in a very particular region of phase space and then theoretical input 
+used to extrapolate this to the full phase space. 
+
+Until recently one possible explanation of the discrepancy was the existence of a new particle which couples only to right handed fermions. A recent analysis of $\Lb\to p\mu\nu$ decays at LHCb, published in Nature Physics, for which I provided the interpretation in terms of right handed currents, has 
+disfavoured this explanation.
+The \Vub puzzle remains one of the most interesting discrepancies in CKM physics. One of my plans during the fellowship would be to perform an inclusive measurement of \Vub using data from LHCb in Run 1 and Run 2 of the LHC. This would be the first time such a measurement has been performed at a hadron collider.
+It can be done using the relatively rare $\Bc$ meson in it's decay to $\Dz\mu\nu X$. One can extract $\Vub$ using the ratio of observed yields for $\Bc\to\Dz\mup\nu X$ and $\Bc\to\jpsi\mup\nu$ decays. This requires
+some form factor input from the theory community but is relatively clean because of the heavy $\Dz$ and $\jpsi$ mesons in the final state.
+This is a rare decay, it has not yet been observed, so the signal yield for such an analysis will be relatively small with the current data. This makes it an ideal candidate for research during my fellowship as it will only be possible with data taken during Run 2 of the LHC.
+
+\section*{Statistics}
+
+I have a considerable interest in statistics and in particular how they are used by experimental physicists at the LHC. To this end I produced a small author paper whilst working with the CMS collaboration on how to treat model
+choice uncertainties as a discrete nuisance parameter using a frequentist likelihood profile. I am currently working with one of the other authors of this paper on a Bayesian implementation of the same technique. Furthermore, I am 
+working with a colleague on LHCb towards a paper discussing benefits and consequences of using Feldman-Cousins frequentist techniques for producing confidence intervals in statistical combinations of measurements. In particular,
+what shortcuts can be taken when considering large numbers of physical parameters and how under coverage can be corrected when using such simplifications. These are small side projects which interest me considerably and I work on when I have some spare time, but I think they are of considerable interest to high energy physicists and the wider community. I would like to continue working on these smaller projects during the fellowship. They are an excellent chance to produce
+small author papers in a community which mostly produces collaborative work with large author lists.
+
+\section*{Conclusion}
+
+The Higgs discovery was a crowning achievement of the SM but the future lies in finding new physics. The best way of accessing new physics amplitudes is by measuring CP violation and looking for deviations from the SM caused
+by interference between the SM and NP amplitudes. $B$ mesons are a fantastic laboratory to study these effects because of the variety and diversity of their decays. The LHC is the perfect machine for creating huge amounts of $B$ mesons and baryons and the LHCb detector has been purposely designed to reconstruct these decays and precisely measure 
+effects which are one part in 100 billion. My work during the fellowship will concentrate on precision measurements of the CKM angle $\gamma$ and the CKM matrix element $\Vub$ using data collected during Run 1 and the upcoming Run 2 of the LHC. By the end of the four year fellowship Run 2 will be complete and we will be able to make the most accurate measurement of $\gamma$ to date with an uncertainty comparable to the indirect constraints, thus probing the unitarity of the SM. Furthermore using $\Bc$ meson decays I plan to inclusively measure $\Vub$ for the first time at a hadron collider and help to shed light on the $\Vub$ puzzle.
+
+\end{document}
